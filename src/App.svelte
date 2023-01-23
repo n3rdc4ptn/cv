@@ -7,6 +7,7 @@
   import Educations from "./lib/sections/Educations.svelte";
   import WorkExperiences from "./lib/sections/WorkExperiences.svelte";
   import Projects from "./lib/sections/Projects.svelte";
+  import Others from "./lib/sections/Others.svelte";
 </script>
 
 <main class="p-4 grid grid-cols-3 gap-4">
@@ -40,6 +41,10 @@
     <Qualifications qualifications={data.qualifications} />
 
     <Certificates certificates={data.certificates} />
+
+    {#if data.others}
+      <Others others={data.others} />
+    {/if}
   </div>
 
   <div class="col-span-2">
