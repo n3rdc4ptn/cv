@@ -1,0 +1,67 @@
+{
+    "name": "",
+    "email": "",
+    "phone": "",
+    "address": [
+        "",
+        ""
+    ],
+    "website": "",
+    "github": "",
+    "linkedin": "",
+    "qualifications": [
+        {
+            "topic": "",
+            "skills": [
+                "",
+                "",
+                "",
+                ""
+            ]
+        }
+    ],
+    "certificates": [
+        {
+            "title": "",
+            "subtitle": "",
+            "date": "",
+            "verification": ""
+        }
+    ],
+    "languages": {
+        "German": "C2",
+        "English": "B2"
+    },
+    "education": [
+        {
+            "title": "",
+            "subtitle": "",
+            "date": "",
+            "grade": null
+        }
+    ],
+    "experiences": [
+        {
+            "title": "",
+            "subtitle": "",
+            "description": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "date": ""
+        }
+    ],
+    "projects": [
+        {
+            "title": "",
+            "subtitle": "",
+            "description": [
+                ""
+            ],
+            "link": "",
+            "date": ""
+        }
+    ]
+}

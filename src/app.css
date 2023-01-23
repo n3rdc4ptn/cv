@@ -1,0 +1,35 @@
+@import "line-awesome/dist/line-awesome/css/line-awesome.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  /* A4 page size */
+  @apply mx-auto h-[297mm] w-[210mm];
+  @apply text-base;
+
+  @apply border border-black;
+  @apply print:border-none;
+}
+
+section {
+  @apply px-1 my-2;
+}
+
+.headline {
+  @apply w-full py-2;
+  @apply text-xl text-center uppercase tracking-widest;
+  @apply border border-gray-700 rounded;
+}
+
+/* General */
+a {
+  @apply underline;
+}
+
+ul > li.dashed:before {
+  margin-left: 5px;
+  content: "-";
+  margin-right: 5px;
+}
