@@ -8,6 +8,7 @@
   import WorkExperiences from "./lib/sections/WorkExperiences.svelte";
   import Projects from "./lib/sections/Projects.svelte";
   import Others from "./lib/sections/Others.svelte";
+  import EducationsProjects from "./lib/sections/EducationsProjects.svelte";
 </script>
 
 <main class="p-4 grid grid-cols-3 gap-4">
@@ -45,12 +46,18 @@
     {#if data.others}
       <Others others={data.others} />
     {/if}
+    {#if data.projects && data.projects.length > 0}
+      <Projects projects={data.projects} />
+    {/if}
   </div>
 
   <div class="col-span-2">
     <WorkExperiences workExperiences={data.experiences} />
 
     <Educations educations={data.education} />
-    <Projects projects={data.projects} />
+    <EducationsProjects
+      title="Cloud Computing Module"
+      projects={data.education_projects}
+    />
   </div>
 </main>

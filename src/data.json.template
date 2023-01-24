@@ -47,6 +47,14 @@
             "grade": null
         }
     ],
+    "education_projects": [
+        {
+            "title": "",
+            "subtitle": "",
+            "description": [],
+            "date": ""
+        }
+    ],
     "experiences": [
         {
             "title": "",
