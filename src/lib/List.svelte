@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { urlify } from "./helpers";
+
   export let data: {
     title: string;
     subtitle: string;
@@ -12,7 +14,7 @@
 <ul>
   {#each data as entry}
     <li class="experience my-3">
-      <h3 class="font-bold text-lg mb-1">{entry.title}</h3>
+      <h3 class="font-bold mb-1">{entry.title}</h3>
       <div class="flex justify-between mb-1">
         <p class="italic">{entry.subtitle}</p>
         {#if entry.date}
@@ -23,7 +25,7 @@
         {#if entry.description.length > 1}
           <ul>
             {#each entry.description as description}
-              <li class="list-disc ml-4">{description}</li>
+              <li class="list-disc ml-4">{@html urlify(description)}</li>
             {/each}
           </ul>
         {:else}

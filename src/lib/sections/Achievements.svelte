@@ -1,17 +1,17 @@
 <script lang="ts">
   import List from "../List.svelte";
 
-  export let educations: {
+  export let achievements: {
     title: string;
     subtitle: string;
     date: string;
-    grade: string;
+    link: string;
     description?: string[];
   }[];
 </script>
 
-<h2 class="headline">Education</h2>
+<h2 class="headline">Achievements</h2>
 
 <section>
-  <List data={educations} />
+  <List data={achievements} />
 </section>

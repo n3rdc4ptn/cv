@@ -10,7 +10,7 @@
   }[];
 </script>
 
-<h2 class="headline">Private Projekte</h2>
+<h2 class="headline">Private projects</h2>
 
 <section>
   <List data={projects} />

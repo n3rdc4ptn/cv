@@ -7,7 +7,7 @@
   }[];
 </script>
 
-<h2 class="headline">Private Projekte</h2>
+<h2 class="headline">Private projects</h2>
 
 <section class="flex flex-col gap-2">
   {#each others as other}
@@ -15,7 +15,7 @@
       <h3 class="text-lg font-bold">{other.title}</h3>
 
       <p>
-        {other.subtitle}
+        {@html other.subtitle.replaceAll("\n", "<br />")}
       </p>
       {#if other.date}
         <p class="text-sm italic">{other.date}</p>

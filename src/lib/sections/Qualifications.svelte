@@ -5,7 +5,7 @@
   }[];
 </script>
 
-<h2 class="headline">Qualifikationen</h2>
+<h2 class="headline">Qualifications</h2>
 
 <section>
   <ul>

@@ -9,8 +9,12 @@
   }[];
 </script>
 
-<h2 class="headline">Arbeitserfahrung</h2>
+<h2 class="headline">Work</h2>
 
 <section>
-  <List data={workExperiences} />
+  <List
+    data={workExperiences}
+    title_text_class="text-xl"
+    text_text_class="text-lg"
+  />
 </section>

@@ -7,7 +7,7 @@
   }[];
 </script>
 
-<h2 class="headline">Zertifikate</h2>
+<h2 class="headline">Certificates</h2>
 
 <section>
   <ul>
